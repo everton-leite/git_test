@@ -1,0 +1,9 @@
+name = input("What's your name? ")
+while True:
+    try:
+        age = int(input(f"Hey, {name}. How old are you? ))
+    except:
+        print("Insert a valid number!")
+    else:
+        break
+print("Great to have you here!")
